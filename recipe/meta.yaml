@@ -19,12 +19,14 @@ requirements:
   host:
     - python >=3
     - pip
+    - setuptools
+    - wheel
   run:
     - python >=3
     - numpy
-    - pillow
-    - pywavelets
-    - scipy
+    - pillow       # or PIL
+    - pywavelets   # for whash
+    - scipy        # for phash
     - six
 
 test:
@@ -41,6 +43,8 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: A Python Perceptual Image Hahsing Module
+  dev_url: https://github.com/JohannesBuchner/imagehash
+  doc_url: https://github.com/JohannesBuchner/imagehash/blob/master/README.rst
 
 extra:
   recipe-maintainers:
