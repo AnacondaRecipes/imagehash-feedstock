@@ -40,6 +40,8 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: A Python Perceptual Image Hahsing Module
+  description: |
+    An image hashing library written in Python.
   dev_url: https://github.com/JohannesBuchner/imagehash
   doc_url: https://github.com/JohannesBuchner/imagehash/blob/master/README.rst
 
